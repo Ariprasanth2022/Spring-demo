@@ -11,6 +11,6 @@ public class App {
     	ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
     	
     	System.out.println(context.getBean("student3",Student.class));
-    	System.out.println(context.getBean("product3",Product.class));
+    	System.out.println(context.getBean(Product.class));
     }
 }

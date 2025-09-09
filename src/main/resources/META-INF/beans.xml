@@ -25,7 +25,7 @@
 		<property name="contact" value="6773046646"></property>
 		</bean>
 		
-		<bean id="product1" class="com.jspiders.spring.dto.Product">
+		<bean id="product1" class="com.jspiders.spring.dto.Product" primary="true">
 		<property name="productId" value="1"></property>
 		<property name="productName" value="Mobile"></property>
 		<property name="price" value="20,000"></property>
